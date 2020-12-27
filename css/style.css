@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+
+body{
+    margin:0;
+    font-family: 'Cormorant Infant', serif;
+    position: relative;
+}
+
+h1{
+    font-size: 8vh;
+    font-weight: 300;
+}
+
+ul{
+    list-style-type: none;
+	/*padding: 0;*/
+    /*overflow: hidden;*/
+    display: flex;
+    position:absolute;
+    top:1vh;
+    right:2.333333vw;
+}
+
+li a{
+    font-size: 1.3em;
+    color: #EEE;
+    text-align: center;
+    padding:5px 10px;
+    margin-right:10px;
+    text-decoration: none;
+}
+
+a{
+    font-size:1vw;
+    font-weight: 300;
+}
+
+.container{
+    position: absolute;
+    display: flex;
+    width : 100vw;
+    height: 100vh;
+}
+
+.logo-box{
+    width: 28vw;
+    height: 100vh;
+    position: fixed;
+    background-color: #252525;
+    color:#EEE;
+}
+
+.content-box{
+    margin-left:5vw;
+    margin-right:5vw;
+    margin-top:40vh;
+}
+
+.canvas-box{
+    width: 100vw;
+    color:#EEE;
+    background-color: #252525;
+}
+
+.canvas-wrap{
+    width: 100vw;
+    height: 30vh;
+    margin-top:30vh;
+    background-color: #252525;
+}
+
+.menu-box{
+    width: 72vw;
+    height: 10vh;
+}
+
+.works:hover{
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-color: #EEE;
+}
+
+.works::after{
+    width: 0;
+}
+
+.works:hover::after{
+    width: 100%;
+}
+
+.about:hover{
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-color: #EEE;
+}
+
+.about::after{
+    width: 0;
+}
+
+.about:hover::after{
+    width: 100%;
+}
+
+.contact:hover{
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-color: #EEE;
+}
+
+.contact::after{
+    width: 0;
+}
+
+.contact:hover::after{
+    width: 100%;
+}
+
+/*#cursor{
+    border-radius: 50%;
+    position:　fixed; 
+    top: 0;
+    left: 0; 
+    cursor: none; 
+    pointer-events: none; 
+    width: 12px;
+    height: 12px;
+    background-color: #FFF;
+    z-index: 101;
+    transform:translate(0,0);
+}*/
+
+
+#main_canvas{
+    width:100vw;
+    height:20vh;
+}
